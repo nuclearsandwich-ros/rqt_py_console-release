@@ -1,0 +1,12 @@
+Source: ros-turbulent-rqt-py-console
+Section: misc
+Priority: extra
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rqt-py-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-index-python, ros-turbulent-python-qt-binding (>= 0.2.19), ros-turbulent-qt-gui, ros-turbulent-qt-gui-py-common, ros-turbulent-rclpy, ros-turbulent-rqt-gui, ros-turbulent-rqt-gui-py, ros-turbulent-ros-workspace
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
