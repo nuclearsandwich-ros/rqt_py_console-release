@@ -1,0 +1,12 @@
+Source: ros-verystable-rqt-py-console
+Section: misc
+Priority: optional
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rqt-py-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-index-python, ros-verystable-python-qt-binding (>= 0.2.19), ros-verystable-qt-gui, ros-verystable-qt-gui-py-common, ros-verystable-rclpy, ros-verystable-rqt-gui, ros-verystable-rqt-gui-py, ros-verystable-ros-workspace
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
