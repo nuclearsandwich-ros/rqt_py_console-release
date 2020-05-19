@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-py-console
+Section: misc
+Priority: optional
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ros-workspace
+Homepage: http://wiki.ros.org/rqt_py_console
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-py-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-python-qt-binding (>= 0.2.19), ros-testing-qt-gui, ros-testing-qt-gui-py-common, ros-testing-rclpy, ros-testing-rqt-gui, ros-testing-rqt-gui-py, ros-testing-ros-workspace
+Description: rqt_py_console is a Python GUI plugin providing an interactive Python console.
